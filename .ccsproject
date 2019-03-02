@@ -11,7 +11,7 @@
 	<linkerCommandFile value="lnk_msp430f5529.cmd"/>
 	<rts value="libc.a"/>
 	<createSlaveProjects value=""/>
-	<templateProperties value="id=com.ti.ccstudio.project.templates.blink_msp430"/>
-	<filesToOpen value="blink.c"/>
+	<templateProperties value="id=com.ti.ccstudio.project.templates.emptyAssemblyOnly_msp430,isAssemblyOnly=true"/>
+	<filesToOpen value="main.asm"/>
 	<isTargetManual value="false"/>
 </projectOptions>

@@ -8,22 +8,22 @@ SHELL = cmd.exe
 CMD_SRCS += \
 ../lnk_msp430f5529.cmd 
 
-C_SRCS += \
-../blink.c 
-
-C_DEPS += \
-./blink.d 
+ASM_SRCS += \
+../main.asm 
 
 OBJS += \
-./blink.obj 
+./main.obj 
+
+ASM_DEPS += \
+./main.d 
 
 OBJS__QUOTED += \
-"blink.obj" 
+"main.obj" 
 
-C_DEPS__QUOTED += \
-"blink.d" 
+ASM_DEPS__QUOTED += \
+"main.d" 
 
-C_SRCS__QUOTED += \
-"../blink.c" 
+ASM_SRCS__QUOTED += \
+"../main.asm" 
 
 
